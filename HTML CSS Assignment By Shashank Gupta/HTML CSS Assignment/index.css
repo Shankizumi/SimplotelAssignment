@@ -1,0 +1,180 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+nav{
+    width: 100%;
+    height: auto;
+    background-color: rgb(248, 99, 99);
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    width: 70%;
+    padding: 10px;
+    display: flex;
+    background-color: rgb(248, 99, 99);
+    list-style: none;
+    justify-content: space-around;
+}
+
+.navbar li{
+    padding: 10px;
+    font-size: 30px;
+    font-family: "Protest Strike", sans-serif;
+
+}
+.navbar img{
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+}
+.sec1{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.imgPart{
+    height: 100vh;
+    width: 50%;
+}
+#img1{
+    height: 100vh;
+    width: 50vw;
+}
+.textPart{
+    justify-content:center ;
+    padding: 40px;
+    width: 50%;
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    background: rgb(0,212,255);
+background: linear-gradient(90deg, rgba(0,212,255,1) 35%, rgba(0,255,140,1) 100%);
+
+}
+.textPart h1{
+    font-size: 100px;
+    padding: 15px
+    
+}
+.textPart p{
+    font-size: 30px;
+    padding: 10px;
+}
+.textPart button{
+    background-color: rgb(248, 99, 99);
+    width: 300px;
+    height: 50px;
+    border: none;
+    color: white;
+    margin: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.sec2{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 35%, rgba(0,255,140,1) 100%);
+}
+
+.imgGallery{
+    display: flex;
+    width: 50vw;
+    align-items: center;
+
+}
+.gal{
+    display: flex;
+    flex-direction: column;
+}
+
+.gal img{
+    height: 35vh;
+    width: 20vw;
+    padding: 15px;
+}
+
+#img2{
+    height: 70vh;
+    width: 18vw;
+    padding: 15px;
+}
+
+.textBox{
+    background-color: rgb(248, 99, 99);
+    height: 300px;
+    width: 600px;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+}
+
+.textBox h1{
+    font-size: 70px;
+}
+.textBox p{
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 1271px) {
+    .navbar{
+        width: 100%;
+    }
+    .navbar li{
+        display: none;
+    }
+    .sec1{
+        flex-direction: column;
+        height: 100%;
+    }
+    .sec2{
+        flex-direction: column;
+        height: 100%;
+    }
+    .textPart{
+        width:100%;
+        padding: 0px;
+    }
+    .imgPart{
+        width: 100%;
+    }
+    #img1{
+        width: 100%;
+    }
+    .imgGallery{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .gal img{
+        height: 35vh;
+        width: 40vw;
+        padding: 15px;
+    }
+    
+    #img2{
+        height: 70vh;
+        width: 36vw;
+        padding: 15px;
+    }
+    .textPart h1{
+        padding: 25px
+        
+    }
+    .textPart p{
+        padding: 20px;
+    }
+    .textBox{
+
+        width: 400px;
+
+    }
+
+  }
